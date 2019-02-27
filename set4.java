@@ -13,21 +13,15 @@ class Ideone
 	Scanner s=new Scanner(System.in);
 	ch=s.next().charAt(0);
 	int n=(int)ch;
-	if(n>=65 && n<=122)
-	{
-		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='U'||ch=='O')
-		{
-		System.out.println("Vowels");
-		}
-		else
-		{
-		System.out.println("Consonants");
-		}
-	}
-	else
-	{
-	System.out.println("Invalid");
-	}
 	
-	}
+	if(n>=65 && n<=122)
+	
+		System.out.println("Alphabet");
+	
+	else
+	
+		System.out.println("no");
+	
+	
+}
 }
