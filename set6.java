@@ -33,9 +33,9 @@ class Ideone
         }
 
         if(isLeap==true)
-            System.out.println(year + " is a Leap Year.");
+            System.out.println("Yes");
         else
-            System.out.println(year + " is not a Leap Year.");
+            System.out.println("No");
     }
 }
 	
