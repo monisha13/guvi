@@ -33,9 +33,9 @@ class Ideone
         }
 
         if(isLeap==true)
-            System.out.println("Yes");
+            System.out.println("yes");
         else
-            System.out.println("No");
+            System.out.println("no");
     }
 }
 	
